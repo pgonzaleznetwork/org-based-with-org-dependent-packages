@@ -1,0 +1,17 @@
+{
+  "orgName": "Huge Org",
+  "edition": "Developer",
+  "hasSampleData": false,
+  "features": ["Communities",  "EnableSetPasswordInApi"],
+  "settings": {
+      "communitiesSettings": {
+          "enableNetworksEnabled": true
+      },
+      "experienceBundleSettings": {
+          "enableExperienceBundleMetadata": true
+      },
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      }
+  }
+}
