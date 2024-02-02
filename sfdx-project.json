@@ -3,10 +3,21 @@
     {
       "path": "force-app",
       "default": true
+    },
+    {
+      "path": "feature-flags-framework",
+      "package": "feature-flags-framework",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "name": "huge-salesforce-org-packages",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "feature-flags-framework": "0Ho3h0000008OoPCAU"
+  }
 }
